@@ -1,0 +1,1 @@
+compound = True or False and not True or False
