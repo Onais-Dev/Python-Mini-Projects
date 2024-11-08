@@ -28,7 +28,7 @@
 # x.append(2)
 # print(len(x))
 
-name = input("Enter your name: ")
-print(name.count("$"))
+# name = input("Enter your name: ")
+# print(name.count("$"))
 
 
