@@ -5,7 +5,7 @@
 
 import random
 random_number = random.randint(1, 100)
-print(random_number)
+# print(random_number)
 attempts = 1
 user_input = int(input("Guess The Number Range (1 - 100): "))
 

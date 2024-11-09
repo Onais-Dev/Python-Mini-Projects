@@ -28,7 +28,16 @@
 #         print("found", i)
 #     i+=1
 
+# Break and Continue 
 
+i = 1
 
+while i <= 5:
+    print(i)
+    if i == 3:
+        continue
+    i +=1
+print(i)
 
+ 
    
