@@ -1,34 +1,34 @@
-# compound = True or False and not True or False
+# n = 1
+# while n<=100:
+#     print(n)
+#     n +=1
+# print(n, "loop ended")
 
-# Conditional Statements
-# name = input("Name: ")
-
-# if name == "Onais":
-#     print("Hello,", name)
-
-# number = float(input("Enter a number: "))
-
-# if number > 0 and number % 2 == 0:
-#     print("This is a Postive Even Number")
-#     number2 = float(input("Enter another Number: "))
-#     if number2 < 0:
-#         print("This is Negative")
-#     else :
-#         print("This is positive")\
-
-# x = 5
-
-# result = "OK " if x >= 5 else "Not ok"
-# print(result)
-
-# list
-
-# x = [1,2,3,True, "abc"]
-# x.append("last element")
-# x.append(2)
-# print(len(x))
-
-# name = input("Enter your name: ")
-# print(name.count("$"))
+# n = int(input("Enter a Number: "))
+# i = 1
+# while n<=30 and i<=10:
+#     print(n,"x",i,"=",n*i,)
+#     i+=1
+# print("Table 3")
 
 
+# num = [1,4,9,16,25,36,49,64,81,100]
+
+# idx = 0
+
+# while idx<len(num):
+#     print(num[idx])
+#     idx+=1
+
+# num = (1,4,9,16,25,36,49,64,81,100)
+# i = 0
+# x = 49
+# while i < len(num):
+#     if (num[i]==x):
+#         print("found", i)
+#     i+=1
+
+
+
+
+   
