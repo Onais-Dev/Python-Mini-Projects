@@ -102,3 +102,17 @@
 # str = "hello"
 
 
+
+
+# LIST SLICING
+
+# marks = [213,34512,452,3,742342,73463,2,4]
+# print(marks[1:4])
+
+# LIST Methods:
+# List Append
+
+lst = [4,5,1,9]
+lst.sort(reverse=True)
+print(lst)
+
