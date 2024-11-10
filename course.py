@@ -30,14 +30,87 @@
 
 # Break and Continue 
 
-i = 1
+# i = 1
 
-while i <= 5:
-    print(i)
-    if i == 3:
-        continue
-    i +=1
-print(i)
+# while i <= 5:
+#     print(i)
+#     if i == 3:
+#         continue
+#     i +=1
+# print(i)
 
- 
+# for loop
    
+# num = [1,2,3,4,5,6]
+
+# for str in num:
+#     if str==4:
+#         print("4 Found")
+#         break
+#     print(str)
+# else :print("Loop is done")
+
+# Practice Question 1
+
+# lst = [1,4,9,16,25,36,49,64,81,100]
+
+# i = 1
+
+# for i in lst:
+#     print(i)
+
+# Practice Question 2
+
+# lst = [1,4,9,16,25,36,49,64,81,100]
+
+# for x in lst:
+#     if x == 25:
+#         print(x, "found")
+
+
+# Range
+
+# for i in range(7,77,7):
+#     print(i)
+
+# st = "Hello World"
+
+# for x in st:
+#     if x == "W":
+#         print(x,"Found")
+
+
+
+# STRING FUNTION
+
+# name = input("Your name: ")
+# print(name,"You name is ",len(name) ,"chars long")
+
+
+# LISTS AND TUPLES
+
+# marks = [12,321,31345,345,323,686,12]
+
+# print(marks,(type(marks)))
+# print(marks[2]) #Finding marks of specific indexes
+# print(len(marks))
+
+# student = ["Onais", 12, "Peshawar" ]
+# student[1] = 20
+# print(student)
+
+# str = "hello"
+
+
+info = list(input("Add Your Information: ").split())
+print(info)
+ques = input("You want to edit any info: ")
+if ques.lower() == "yes":
+    idx_num = int((input("On Which index: ")))
+    if 0 >= idx_num < len(info):
+        new_value = (input("Write a new value: "))
+        info[idx_num] = new_value
+        print(info)
+    else:
+        print("This Index is not available ")
+else: print("You are good to go!")
